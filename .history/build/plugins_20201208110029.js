@@ -31,7 +31,7 @@ const devPlugins = [
     template: 'public/index.html',
     inject: true
   }),
-  // --hot 等于这样的写法
+  // new webpack.NamedModulesPlugin(),
   new webpack.HotModuleReplacementPlugin()
 ]
 

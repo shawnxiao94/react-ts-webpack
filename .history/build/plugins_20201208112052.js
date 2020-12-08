@@ -32,7 +32,8 @@ const devPlugins = [
     inject: true
   }),
   // --hot 等于这样的写法
-  new webpack.HotModuleReplacementPlugin()
+  new webpack.HotModuleReplacementPlugin(),
+  new webpack.NamedModulesPlugin()
 ]
 
 const prodPlugins = [

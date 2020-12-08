@@ -1,3 +1,15 @@
+/**
+ * /*
+ *
+ * @format
+ * @Author: QiuLin
+ * @Date: 2020-12-07 22:54:26
+ * @LastEditTime: 2020-12-07 22:54:37
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /react-ts-webpack/build/webpack.config.js
+ */
+
 /** @format */
 
 const config = require('./config')
@@ -25,8 +37,8 @@ module.exports = {
       //当出现编译器错误或警告时，就在网页上显示一层黑色的背景层和错误信息
       errors: true
     },
-    inline: true,
-    hot: true
+    inline: true
+    // hot: true
     // proxy: {
     //   '/api/v1': {
     //     target: '',
