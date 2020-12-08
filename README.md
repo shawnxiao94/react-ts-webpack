@@ -13,3 +13,7 @@ React + Typescript 项目模板
 "webpack-cli": "3.3.12",
 "webpack-dev-server": "^3.11.0"
 ```
+
+git commit 提交的时候报错 husky > pre-commit hook failed (add --no-verify to bypass)（解决办法）
+
+> 将 git commit -m "XXX" 改为 git commit --no-verify -m "XXX",暂时先提交
